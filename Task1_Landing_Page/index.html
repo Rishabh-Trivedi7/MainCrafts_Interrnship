@@ -8,15 +8,11 @@
 
     <title>Nivana | Stay Beyond Ordinary</title>
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+    <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
@@ -29,7 +25,7 @@
 
     <header class="header">
 
-        <nav class="navbar container">
+        <div class="container navbar">
 
             <div class="logo">
                 Nivana
@@ -43,10 +39,11 @@
 
                 <li><a href="#experiences">Experiences</a></li>
 
-                <!-- Dropdown -->
+                <!-- DROPDOWN -->
+
                 <li class="dropdown">
 
-                    <a href="#">
+                    <a href="#" id="exploreToggle">
                         Explore
                         <i class="fa-solid fa-chevron-down"></i>
                     </a>
@@ -67,20 +64,19 @@
 
             </ul>
 
-            <!-- Mobile Menu -->
             <div class="menu-btn">
                 <i class="fa-solid fa-bars"></i>
             </div>
 
-        </nav>
+        </div>
 
     </header>
 
-    <!-- ================= HERO SECTION ================= -->
+    <!-- ================= HERO ================= -->
 
     <section class="hero">
 
-        <div class="hero-content container">
+        <div class="container hero-content">
 
             <div class="hero-text">
 
@@ -115,7 +111,7 @@
 
     </section>
 
-    <!-- ================= STAYS SECTION ================= -->
+    <!-- ================= STAYS ================= -->
 
     <section class="stays" id="stays">
 
@@ -123,17 +119,35 @@
 
             <div class="section-title">
 
-                <h2>Featured Escapes</h2>
+                <h2>Signature Escapes</h2>
 
                 <p>
-                    Handpicked destinations designed for peace, comfort and memorable stays.
+                    Curated destinations designed for modern explorers seeking peace and luxury.
                 </p>
 
             </div>
 
             <div class="stay-grid">
 
-                <!-- Card 1 -->
+                <!-- CARD 1 -->
+
+                <div class="stay-card">
+
+                    <img src="https://images.unsplash.com/photo-1593693397690-362cb9666fc2?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Kerala">
+
+                    <div class="stay-content">
+
+                        <h3>Kerala Retreats</h3>
+
+                        <p>
+                            Floating backwaters, hidden luxury villas and tropical escapes designed for stillness and calm.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- CARD 2 -->
 
                 <div class="stay-card">
 
@@ -142,50 +156,28 @@
 
                     <div class="stay-content">
 
-                        <h3>Uttarakhand</h3>
+                        <h3>Uttarakhand Escapes</h3>
 
                         <p>
-                            Peaceful Himalayan retreats surrounded by forests, rivers and mountains.
+                            Himalayan hideaways and mountain sanctuaries crafted for mindful journeys and peaceful experiences.
                         </p>
 
                     </div>
 
                 </div>
 
-                <!-- Card 2 -->
+                <!-- CARD 3 -->
 
                 <div class="stay-card">
 
-                    <img src="https://images.unsplash.com/photo-1593693397690-362cb9666fc2?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    alt="Kerala Backwaters">
+                    <img src="https://plus.unsplash.com/premium_photo-1692049123825-8d43174c9c5c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Assam">
 
                     <div class="stay-content">
 
-                        <h3>Kerala</h3>
+                        <h3>Assam Experiences</h3>
 
                         <p>
-                            Serene backwaters, floating houseboats and peaceful luxury retreats
-                            surrounded by Kerala’s timeless natural beauty.
-                        </p>
-
-                    </div>
-
-                </div>
-
-                <!-- Card 3 -->
-
-                <div class="stay-card">
-
-                    <img src="https://plus.unsplash.com/premium_photo-1692049123825-8d43174c9c5c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    alt="Assam Tea Gardens">
-
-                    <div class="stay-content">
-
-                        <h3>Assam</h3>
-
-                        <p>
-                            Explore scenic tea estates, misty landscapes and immersive nature
-                            experiences inspired by Assam’s calming atmosphere.
+                            Tea valley retreats, rainforest lodges and immersive nature stays inspired by the Northeast.
                         </p>
 
                     </div>
@@ -198,7 +190,7 @@
 
     </section>
 
-    <!-- ================= EXPERIENCES SECTION ================= -->
+    <!-- ================= EXPERIENCES ================= -->
 
     <section class="experiences" id="experiences">
 
@@ -206,68 +198,60 @@
 
             <div class="section-title">
 
-                <h2>Premium Experiences</h2>
+                <h2>Experiences Crafted Around Stillness</h2>
 
                 <p>
-                    Curated experiences that combine luxury, nature and peaceful living.
+                    Beyond destinations — discover experiences designed to slow life down.
                 </p>
 
             </div>
 
             <div class="experience-grid">
 
-                <!-- Feature 1 -->
-
                 <div class="experience-card">
 
-                    <i class="fa-solid fa-mountain-sun"></i>
+                    <i class="fa-solid fa-mountain"></i>
 
-                    <h3>Mountain Sanctuaries</h3>
+                    <h3>Mountain Retreats</h3>
 
                     <p>
-                        Escape into breathtaking Himalayan landscapes and luxury mountain stays.
+                        Wake up to mist-covered valleys and quiet Himalayan mornings.
                     </p>
 
                 </div>
-
-                <!-- Feature 2 -->
 
                 <div class="experience-card">
 
                     <i class="fa-solid fa-water"></i>
 
-                    <h3>Riverside Retreats</h3>
+                    <h3>Riverside Escapes</h3>
 
                     <p>
-                        Relax beside peaceful rivers with immersive and calming experiences.
+                        Unwind beside calm waters surrounded by peaceful natural landscapes.
                     </p>
 
                 </div>
 
-                <!-- Feature 3 -->
-
                 <div class="experience-card">
 
-                    <i class="fa-solid fa-hotel"></i>
+                    <i class="fa-solid fa-spa"></i>
 
-                    <h3>Boutique Resorts</h3>
+                    <h3>Luxury Wellness</h3>
 
                     <p>
-                        Carefully curated stays designed with elegance, comfort and hospitality.
+                        Experience curated wellness stays inspired by mindfulness and calm living.
                     </p>
 
                 </div>
 
-                <!-- Feature 4 -->
-
                 <div class="experience-card">
 
-                    <i class="fa-solid fa-camera-retro"></i>
+                    <i class="fa-solid fa-tree"></i>
 
-                    <h3>Scenic Escapes</h3>
+                    <h3>Forest Hideaways</h3>
 
                     <p>
-                        Explore cinematic destinations hidden beyond ordinary tourist routes.
+                        Reconnect with nature through immersive eco-luxury experiences.
                     </p>
 
                 </div>
@@ -278,18 +262,19 @@
 
     </section>
 
-    <!-- ================= TESTIMONIAL SECTION ================= -->
+    <!-- ================= BRAND STATEMENT ================= -->
 
     <section class="testimonial">
 
         <div class="container testimonial-box">
 
             <h2>
-                “Nivana felt less like booking a stay and more like discovering peace.”
+                “Nivana felt less like booking a stay
+                and more like discovering peace.”
             </h2>
 
             <p>
-                — Aarav Sharma, Travel Enthusiast
+                The Nivana Experience
             </p>
 
         </div>
@@ -336,7 +321,7 @@
 
     </footer>
 
-    <!-- JavaScript -->
+    <!-- JS -->
     <script src="script.js"></script>
 
 </body>
