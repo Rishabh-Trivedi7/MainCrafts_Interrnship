@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Nivana</title>
+
+    <!-- GOOGLE FONTS -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="header">
+
+    <div class="container navbar">
+
+        <div class="logo">
+            Nivana
+        </div>
+
+        <ul class="nav-links">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+        <div class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </div>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="page-hero">
+
+    <div class="container page-hero-content">
+
+        <span class="hero-tag">
+            Contact Nivana
+        </span>
+
+        <h1>
+            Plan Your Stay With Nivana
+        </h1>
+
+        <p>
+            Have questions about destinations, luxury stays or travel experiences?
+            Share your preferences and let Nivana help you discover peaceful stays
+            designed around comfort, nature and modern luxury.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACT INFO ================= -->
+
+<section class="contact-info">
+
+    <div class="container contact-info-grid">
+
+        <div class="info-card">
+
+            <i class="fa-solid fa-location-dot"></i>
+
+            <h3>
+                Destinations
+            </h3>
+
+            <p>
+                Discover curated stays across mountains, forests and riverside escapes.
+            </p>
+
+        </div>
+
+        <div class="info-card">
+
+            <i class="fa-solid fa-envelope"></i>
+
+            <h3>
+                Travel Assistance
+            </h3>
+
+            <p>
+                Reach out for personalized recommendations and stay experiences.
+            </p>
+
+        </div>
+
+        <div class="info-card">
+
+            <i class="fa-solid fa-clock"></i>
+
+            <h3>
+                Curated Experiences
+            </h3>
+
+            <p>
+                Wellness retreats, luxury stays and peaceful journeys designed for modern travelers.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACT FORM ================= -->
+
+<section class="contact-section">
+
+    <div class="container contact-container">
+
+        <form id="contactForm" class="contact-form">
+
+            <input type="text" id="name" placeholder="Your Name">
+
+            <small class="error" id="nameError"></small>
+
+            <input type="email" id="email" placeholder="Your Email">
+
+            <small class="error" id="emailError"></small>
+
+            <select id="destination">
+
+                <option value="">
+                    Select Destination Interest
+                </option>
+
+                <option value="Kerala">
+                    Kerala
+                </option>
+
+                <option value="Uttarakhand">
+                    Uttarakhand
+                </option>
+
+                <option value="Assam">
+                    Assam
+                </option>
+
+            </select>
+
+            <small class="error" id="destinationError"></small>
+
+            <textarea id="message" rows="6" placeholder="Tell us about your ideal stay experience"></textarea>
+
+            <small class="error" id="messageError"></small>
+
+            <button type="submit" class="btn primary-btn">
+                Submit Inquiry
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
