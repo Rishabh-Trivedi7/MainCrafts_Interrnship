@@ -888,3 +888,149 @@ img{
     }
 
 }
+/* ================= UPDATED ABOUT INTRO ================= */
+
+.about-intro{
+    padding:30px 0 80px;
+}
+
+.about-intro-box{
+    background:#ffffff;
+    padding:60px;
+    border-radius:28px;
+    box-shadow:0 10px 35px rgba(0,0,0,0.06);
+}
+
+.about-intro-box h2{
+    font-size:2.8rem;
+    margin-bottom:28px;
+    font-family:'Playfair Display', serif;
+    color:#1e293b;
+    line-height:1.2;
+}
+
+.about-intro-box p{
+    color:#64748b;
+    line-height:2;
+    font-size:1.03rem;
+    margin-bottom:24px;
+}
+
+/* ================= OUR PHILOSOPHY ================= */
+
+.why-nivana{
+    padding:90px 0;
+    background:#ffffff;
+}
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:28px;
+    margin-top:50px;
+}
+
+.why-card{
+    background:#f8f5f0;
+    padding:42px 32px;
+    border-radius:24px;
+    transition:0.35s ease;
+    border:1px solid rgba(0,0,0,0.03);
+}
+
+.why-card:hover{
+    transform:translateY(-8px);
+}
+
+.why-card i{
+    font-size:2rem;
+    color:#c59d5f;
+    margin-bottom:22px;
+}
+
+.why-card h3{
+    font-size:1.35rem;
+    margin-bottom:16px;
+    color:#1e293b;
+}
+
+.why-card p{
+    color:#64748b;
+    line-height:1.9;
+    font-size:0.98rem;
+}
+
+/* ================= BETTER ABOUT SPACING ================= */
+
+.page-hero{
+    padding:160px 0 90px;
+}
+
+.page-hero h1{
+    max-width:850px;
+    margin:22px auto;
+}
+
+.page-hero p{
+    max-width:760px;
+    margin:auto;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:992px){
+
+    .why-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .about-intro-box{
+        padding:45px;
+    }
+
+    .about-intro-box h2{
+        font-size:2.4rem;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .why-grid{
+        grid-template-columns:1fr;
+    }
+
+    .about-intro-box{
+        padding:35px 28px;
+    }
+
+    .about-intro-box h2{
+        font-size:2rem;
+    }
+
+    .about-intro-box p{
+        font-size:0.97rem;
+        line-height:1.9;
+    }
+
+    .why-card{
+        padding:34px 26px;
+    }
+
+}
+
+@media(max-width:500px){
+
+    .about-intro-box{
+        padding:30px 22px;
+    }
+
+    .about-intro-box h2{
+        font-size:1.8rem;
+    }
+
+    .why-card h3{
+        font-size:1.2rem;
+    }
+
+}

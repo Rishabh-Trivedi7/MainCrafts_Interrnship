@@ -47,3 +47,50 @@ maincrafts_internship/
     ├── style.css
     ├── script.js
     └── assets/
+
+## Task 2 — Multi Page Website & Form Validation
+
+A responsive multi-page hospitality website designed using HTML, CSS, and JavaScript.
+
+This task expands the Nivana project into a more complete website experience by adding dedicated About and Contact pages along with interactive form validation features.
+
+The project focuses on structured page design, better user experience, and interactive frontend functionality.
+
+---
+
+# Features
+
+* Multi Page Website Structure
+* Responsive About Us Page
+* Responsive Contact Page
+* Brand Story & Philosophy Sections
+* Timeline Based Storytelling Layout
+* Contact Form with Validation
+* Dropdown Navigation Menu
+* Mobile Responsive Design
+* Error Handling Messages
+* Clean Typography & UI Consistency
+* Smooth Hover Effects & Interactions
+
+---
+
+# Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript
+
+---
+
+# Folder Structure
+
+```bash
+Task2_Multiple_Page_And_Form_Validation/
+│
+├── index.html
+├── about.html
+├── contact.html
+├── style.css
+├── script.js
+└── assets/
+```
