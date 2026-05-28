@@ -47,6 +47,10 @@ maincrafts_internship/
     ├── style.css
     ├── script.js
     └── assets/
+```
+
+---
+
 
 ## Task 2 — Multi Page Website & Form Validation
 
