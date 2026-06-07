@@ -98,3 +98,44 @@ Task2_Multiple_Page_And_Form_Validation/
 ├── script.js
 └── assets/
 ```
+## Task 3 — Contact Form Validation & LocalStorage Integration
+
+A JavaScript-based implementation that enhances the Nivana website by adding client-side form validation, data persistence using LocalStorage, and dynamic inquiry management.
+
+The project focuses on creating an interactive user experience where inquiries submitted through the contact form are validated, stored in the browser, displayed on a dedicated submissions page, and managed dynamically.
+
+---
+
+# Features
+
+- Contact Form Validation
+- Error Handling & User Feedback
+- LocalStorage Data Persistence
+- Dynamic Inquiry Display
+- Delete Inquiry Functionality
+- DOM Manipulation
+- Responsive User Interface
+- Separate Submissions Management Page
+
+---
+
+# Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Browser LocalStorage API
+
+---
+
+# Folder Structure
+
+```bash
+task3/
+│
+├── contact.html
+├── submissions.html
+├── style.css
+├── script.js
+└── assets/
+```
