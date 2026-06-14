@@ -139,3 +139,103 @@ task3/
 ├── script.js
 └── assets/
 ```
+
+## Task 4 — TaskFlow Smart Task Manager Dashboard
+
+TaskFlow is a responsive Task Manager Dashboard developed using HTML, CSS, and JavaScript. The application allows users to create, manage, organize, and track tasks efficiently through an interactive dashboard interface.
+
+The project focuses on implementing CRUD (Create, Read, Update, Delete) operations, LocalStorage integration, task filtering, and dynamic dashboard updates using core frontend technologies.
+
+---
+
+# Features
+
+* Add New Tasks
+* Edit Existing Tasks
+* Delete Tasks
+* Mark Tasks as Completed
+* Undo Completed Tasks
+* LocalStorage Data Persistence
+* Task Search Functionality
+* Task Status Filtering
+* Dashboard Statistics
+* Priority Management (High, Medium, Low)
+* Responsive Dashboard Layout
+* Dynamic UI Updates
+* Empty State Handling
+* Mobile Friendly Design
+
+---
+
+# Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript (ES6)
+* Browser LocalStorage API
+* Font Awesome
+* Google Fonts
+
+---
+
+# Folder Structure
+
+```bash
+task4/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+---
+
+# Dashboard Functionalities
+
+### Task CRUD Operations
+
+* Create new tasks
+* Read and display saved tasks
+* Update task details
+* Delete unwanted tasks
+
+### Task Tracking
+
+* Mark tasks as completed
+* Revert completed tasks back to pending
+* Visual completion indicators
+
+### Search & Filter
+
+* Search tasks by title or description
+* Filter tasks by:
+
+  * All Tasks
+  * Completed Tasks
+  * Pending Tasks
+
+### Statistics Dashboard
+
+* Total Tasks
+* Completed Tasks
+* Pending Tasks
+* High Priority Tasks
+
+---
+
+# Learning Outcomes
+
+* DOM Manipulation
+* Event Handling
+* CRUD Operations using JavaScript
+* LocalStorage Implementation
+* Dynamic Content Rendering
+* Responsive Dashboard Design
+* Frontend State Management
+
+---
+
+# Project Objective
+
+The objective of this task was to build a frontend-only Task Manager Dashboard that demonstrates practical JavaScript concepts including CRUD functionality, LocalStorage integration, search and filtering mechanisms, and responsive user interface design.
